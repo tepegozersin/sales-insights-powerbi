@@ -73,11 +73,17 @@ The goal is to provide actionable insights for executives and stakeholders, enab
 
 ---
 
+## 🌍 Live Dashboard  
+You can explore the interactive dashboard here:  
+
+[🔗 View Dashboard on Power BI](https://app.powerbi.com/view?r=eyJrIjoiYWE2NjBlNjUtNDUzOS00ZDM3LWIxZmMtMjQyMjE5OTI1YjhiIiwidCI6ImExMzM2ODc5LWFiOWMtNDhiYi1iMWFjLWE2OWNhZTJlOGRmZSIsImMiOjl9)
+
+---
+
 ## 🚀 How to Use  
 - Download the `.pbix` file from the repository.  
 - Open with **Power BI Desktop** to explore interactively.  
-- *(Optional)* Access the live interactive dashboard via [Power BI Publish to Web link](#) (if available).  
-
+ 
 ---
 
 **Ersin Tepegöz**  
