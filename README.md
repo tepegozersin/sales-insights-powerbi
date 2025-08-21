@@ -7,13 +7,25 @@ The goal is to provide actionable insights for executives and stakeholders, enab
 ---
 
 ## 📂 Dataset  
-- **Source:** Mock business dataset (sales, customers, products, shipments).  
-- **Timeframe:** Multiple years of transactional data.  
-- **Data includes:**  
-  - Sales Amount, Profit, Quantity  
-  - Product Categories & Subcategories  
-  - Customer Segments & CLV  
-  - Regional & Shipment details  
+- **Source:** [Superstore Dataset (Kaggle)](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)  
+- The original dataset was provided as a **single flat table** (`superstore.csv`).  
+- For professional reporting and scalability, the data was restructured into a **star schema** with proper **dimension and fact tables**.  
+
+---
+
+## 🛠 Data Modeling & Measures  
+- Built a **star schema data model** to improve performance and analytical flexibility.  
+- Established relationships between:  
+  - **Fact Table**: FactSales
+  - **Dimension Tables**: DimProducts, DimCustomers, DimRegions, DimDate  
+- Developed **10+ DAX measures** for advanced analytics, including:  
+  - **Total Sales**, **Total Profit**, **Profit Margin**  
+  - **Year-to-Date (YTD)** and **Month-to-Date (MTD)** metrics  
+  - **Customer Lifetime Value (CLV)**  
+  - **Shipment Status metrics**  
+
+> ⚡ By restructuring the dataset and creating reusable DAX measures, the dashboard provides **faster performance, better scalability, and deeper insights** compared to working with a single flat table.  
+
 
 ---
 
@@ -68,3 +80,7 @@ The goal is to provide actionable insights for executives and stakeholders, enab
 
 ---
 
+**Ersin Tepegöz**  
+Location: Antalya, Turkey  
+Email: tepegozersin@gmail.com  
+LinkedIn: [linkedin.com/in/tepegozersin](https://www.linkedin.com/in/tepegozersin/)  
